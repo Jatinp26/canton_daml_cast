@@ -8,7 +8,7 @@ The Canton JSON Ledger API has every contract using the same blank endpoints:
 
 ```
 POST /v1/create
-Body: {}   ← no field names, no types, nothing
+Body: {}   - no field names, no types, nothing
 ```
 
 DAML Cast reads your compiled `.dar` file and turns it into this:
@@ -24,16 +24,6 @@ Body: {
 ```
 
 Paste that into Swagger UI or feed it into `openapi-generator` to get a typed SDK in TypeScript, Python, Java automatically.
-
-## What's in this folder
-
-```
-DAML_cast/
-  typeMapper.js   - maps Daml types to JSON Schema
-  cast.js         - the compiler
-  openapi.yaml    - the generated output
-  package.json
-```
 
 ## How to use it
 
