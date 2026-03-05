@@ -1,6 +1,6 @@
 # DAML Cast
 
-Auto-generates a fully-typed OpenAPI spec from any `.dar` file.
+Auto generates a fully typed OpenAPI spec from any `.dar` file.
 
 ## What is this?
 
@@ -63,7 +63,7 @@ Output: `openapi.yaml`
 cat openapi.yaml | pbcopy
 ```
 
-Paste into **https://editor.swagger.io** — you'll see all your endpoints rendered with types.
+Paste into **https://editor.swagger.io** ...and you'll see all your endpoints rendered with types.
 
 ## Type mappings
 
